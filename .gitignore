@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cypress files
+cypress/screenshots/
+cypress/videos/
+cypress/plugins/
+cypress/support/
+
+# Environment specific configuration files
+cypress.env.json
+
+# Temporary files
+*.log
+*.tmp
+.tmp*
+
+# Build output directories
+/build
+/dist
+/out
+
+# Operating system files
+.DS_Store
+Thumbs.db
